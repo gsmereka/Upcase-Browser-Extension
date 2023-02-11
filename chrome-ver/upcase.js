@@ -7,7 +7,7 @@ function	waitClick()
 
 function	getText()
 {
-	let text = document.querySelector('#text').value;
+	let text = document.querySelector('#userText').value;
 	document.querySelector("#result").innerHTML = upper(text) + '<br>';
 }
 
